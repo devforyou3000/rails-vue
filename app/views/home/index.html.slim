@@ -1,0 +1,12 @@
+
+h1 Rails Vue example
+
+#app
+  span UTC time
+  a-clock init-hour="#{Time.now.hour}" init-min="#{Time.now.min}"
+  br
+  span UTC+8 time
+  a-clock init-hour="#{Time.now.hour+8}" init-min="#{Time.now.min}"
+  br
+  span UTC-5 time
+  a-clock init-hour="#{Time.now.hour-5}" init-min="#{Time.now.min}"
